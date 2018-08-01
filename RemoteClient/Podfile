@@ -1,0 +1,10 @@
+source ‘https://github.com/CocoaPods/Specs.git’ 
+platform :ios, ‘9.0’ 
+use_frameworks! 
+target “RemoteClient” do 
+pod ‘SwiftyJSON’, ‘~> 2.4.0’
+
+pod ‘CocoaAsyncSocket’, ‘~> 7.5.1’
+
+pod ‘Alamofire’, ‘~> 3.5.1’ 
+end
